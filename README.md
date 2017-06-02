@@ -91,15 +91,18 @@ index.d.ts
 
 6. quick-start login: new-user & password123
 
+
 **Basic Overview of Project**
 ----------------------
 Basic description of project...
+
 
 **Bugs**
 ----------------------
 1. first bug description
 
 2. second bug description
+
 
 **Future Enhancements**
 ----------------------
