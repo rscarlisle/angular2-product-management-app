@@ -7,7 +7,7 @@ Licensing Information: READ LICENSE
 
 Project Source can be downloaded from: https://github.com/rscarlisle/angular2-product-management-app.git
 
-*Author & Contribution List*
+**Author & Contribution List**
 
 Randall Carlisle
 
@@ -15,5 +15,7 @@ All other bugs and fixes can be sent to randy@pd-quick.com
 
 Reported bugs and fixes will be submitted for correction
 
-*File List*
+**File List**
 ---
+.:
+README.md
