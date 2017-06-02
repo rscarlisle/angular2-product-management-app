@@ -80,3 +80,6 @@ index.d.ts
 **How to Run Project**
 ----------------------
 Depending on operating system...
+
+**Basic Overview of Project**
+----------------------
