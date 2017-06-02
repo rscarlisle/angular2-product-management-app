@@ -77,3 +77,6 @@ index.d.ts
 
 ./typings/global/core-js/node/typings.ts
 ```
+**How to Run Project**
+----------------------
+Depending on operating system...
