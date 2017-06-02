@@ -85,9 +85,9 @@ index.d.ts
 
 3. cd into project folder
 
-4. <run> npm start
+4. [run] npm start
 
-5. in browser, <enter> http://localhost:8080
+5. in browser, [enter] http://localhost:8080
 
 6. quick-start login: new-user & password123
 
