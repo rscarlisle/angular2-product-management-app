@@ -83,3 +83,9 @@ Depending on operating system...
 
 **Basic Overview of Project**
 ----------------------
+
+**Bugs**
+----------------------
+
+**Future Enhancements**
+----------------------
