@@ -83,9 +83,16 @@ Depending on operating system...
 
 **Basic Overview of Project**
 ----------------------
+Basic description of project...
 
 **Bugs**
 ----------------------
+1. first bug description
+
+2. second bug description
 
 **Future Enhancements**
 ----------------------
+* feature description one
+
+* feature description two
