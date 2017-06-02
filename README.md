@@ -1,5 +1,8 @@
-# Angular2 - Product Management Application
-Amazon Product Management Application
+angular2-product-management-app
+
+[![Build Status](https://travis-ci.org/topheman/vanilla-es6-jspm.svg?branch=master)](https://travis-ci.org/topheman/vanilla-es6-jspm)
+[![Sauce Test Status](https://saucelabs.com/buildstatus/vanilla-es6-jspm)](https://saucelabs.com/u/vanilla-es6-jspm)
+[![devDependency Status](https://david-dm.org/topheman/vanilla-es6-jspm/dev-status.svg)](https://david-dm.org/topheman/vanilla-es6-jspm#info=devDependencies)
 
 Licensing Information: READ LICENSE
 
