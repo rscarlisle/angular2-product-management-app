@@ -19,5 +19,7 @@ Reported bugs and fixes will be submitted for correction
 -----------
 ```
 .:
+License
+
 README.md
 ```
