@@ -74,5 +74,6 @@ index.d.ts
 ./typings/global/core-js/typings.ts
 
 ./typings/global/core-js/node/index.d.ts
+
 ./typings/global/core-js/node/typings.ts
 ```
