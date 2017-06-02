@@ -79,7 +79,17 @@ index.d.ts
 ```
 **How to Run Project**
 ----------------------
-Depending on operating system...
+1. Required operating system - OSX
+
+2. Fork/clone project to local system
+
+3. cd into project folder
+
+4. <run> npm start
+
+5. in browser, <enter> http://localhost:8080
+
+6. quick-start login: new-user & password123
 
 **Basic Overview of Project**
 ----------------------
