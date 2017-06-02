@@ -1,4 +1,4 @@
-# angular2-product-management-app
+# Angular2 - Product Management Application
 Amazon Product Management Application
 
 Licensing Information: Read License
