@@ -16,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/rscarlisle/angular2-product-management-app/issues"
   },
-  "homepage": "https://github.com/rscarlisle/angular2-product-management-app#readme"
+  "homepage": "https://github.com/rscarlisle/angular2-product-management-app#readme",
+  "dependencies": {
+    "@angular/common": "^4.1.3",
+    "@angular/compiler": "^4.1.3",
+    "@angular/core": "^4.1.3",
+    "@angular/forms": "^4.1.3",
+    "@angular/http": "^4.1.3",
+    "@angular/platform-browser": "^4.1.3",
+    "@angular/platform-browser-dynamic": "^4.1.3",
+    "@angular/router": "^4.1.3",
+    "rxjs": "^5.4.0",
+    "zone.js": "^0.8.11"
+  }
 }
