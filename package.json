@@ -1,0 +1,20 @@
+{
+  "name": "angular2-product-management-app",
+  "version": "1.0.0",
+  "description": "**Angular 2 - Product Management Application** ---------------",
+  "main": "app.component.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rscarlisle/angular2-product-management-app.git"
+  },
+  "keywords": [],
+  "author": "Randall Carlisle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rscarlisle/angular2-product-management-app/issues"
+  },
+  "homepage": "https://github.com/rscarlisle/angular2-product-management-app#readme"
+}
