@@ -5,7 +5,11 @@ import { Component } from '@angular/core';
 	template: 
 	`
 		<div><h1>{{pageTitle}}</h1>
+<<<<<<< HEAD
 				<pm-products></pm-products>
+=======
+			<pm-products></pm-products>
+>>>>>>> 26084671335d3e0eb397fc538f0520add55d83e2
 		</div>
 	`
 })
