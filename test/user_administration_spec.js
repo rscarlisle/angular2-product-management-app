@@ -1,5 +1,5 @@
 let assert = require("assert");
-let UserAdministration = require("user_administration.js");
+let UserAdministration = require("../user_administration");
 
 describe("Applying for administrator permissions", function() {
   describe("Using valid email, first, last", function() {
