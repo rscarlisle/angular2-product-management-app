@@ -101,7 +101,15 @@ index.d.ts
 ----------------------
 Basic description of project...
 
+**Testing Manangement**
+----------------------
+1. Mocha - [run] npm test
 
+2. Signon
+
+3. Moment.js
+
+4. Jasmine
 
 **Bugs**
 ----------------------
