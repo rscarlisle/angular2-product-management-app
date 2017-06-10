@@ -1,7 +1,7 @@
-var _ = require("underscore")._;
-var moment = require("moment");
+let _ = require("underscore")._;
+let moment = require("moment");
 
-var MembershipApplication = function(args){
+let UserAdministration = function(args){
   args || (args = {});
   _.extend(this,args);
   this.validUntil = args.validUntil ? moment(args.validUntil) : moment().add(10, "days");
@@ -35,4 +35,4 @@ var MembershipApplication = function(args){
 
 };
 
-module.exports = MembershipApplication;
+module.exports = UserAdministration;
