@@ -1,11 +1,7 @@
 let _ = require("underscore")._;
 let moment = require("moment");
 
-<<<<<<< HEAD
 let  UserAdministration = function(args){
-=======
-let UserAdministration = function(args){
->>>>>>> 4a63aea730bec934a736f2b5c5663e2d8021a912
   args || (args = {});
   _.extend(this,args);
   this.validUntil = args.validUntil ? moment(args.validUntil) : moment().add(10, "days");
@@ -27,7 +23,8 @@ let UserAdministration = function(args){
     }else if(!this.emailIsValid()){
       return "Email is invalid";
     }
-    }else if(!this.nameIsValid()){
+  } 
+  if(!this.nameIsValid()){
       return "A first and last name is required";
     }else if(this.expired()){
       return "This application is expired";
@@ -37,6 +34,6 @@ let UserAdministration = function(args){
     return this.emailIsValid();
   };
 
-};
+// };
 
 module.exports = UserAdministration;
