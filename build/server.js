@@ -1,6 +1,6 @@
-let express = require('express');
-let path  = require('path');
-let open  = require('open');
+import express from 'express';
+import path from 'path';
+import open from 'open';
 // import webpack from 'webpack';
 // import config from '../webpack.config.dev';
 
