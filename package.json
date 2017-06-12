@@ -34,6 +34,7 @@
   "devDependencies": {
     "express": "^4.15.3",
     "mocha": "^3.4.2",
+    "open": "0.0.5",
     "sinon": "^2.3.4"
   }
 }
