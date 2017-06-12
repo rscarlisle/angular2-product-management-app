@@ -1,7 +1,6 @@
 import path from 'path';
 
 export default {
-  debug: true,
   devtool: 'inline-source-map',
   entry: [
     path.resolve(__dirname, 'src/index')
