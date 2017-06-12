@@ -4,6 +4,8 @@
   "description": "**Angular 2 - Product Management Application** ---------------",
   "main": "app.component.js",
   "scripts": {
+    "prestart": "node build/message.js",
+    "start": "node build/server.js",
     "test": "node_modules/mocha/bin/mocha"
   },
   "repository": {
