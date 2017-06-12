@@ -13,11 +13,11 @@ export default {
     publicPath: '/',
     filename: 'bundle.js'
   },
-  plugins:[],
+  plugins: [],
   module: {
     loaders: [
       {test: /\.js$/, exclude: /node_modules/, loaders: ['babel']},
-      {test: /\.css$/, loaders: ['style', 'css']}
+      {test: /\.css$/, loaders: ['style','css']}
     ]
   }
 }
