@@ -16,3 +16,5 @@ describe('index.html', () => {
       expect(h1.innerHTML).to.equal("Hello, world!");
       window.close();
     });
+  });
+});
