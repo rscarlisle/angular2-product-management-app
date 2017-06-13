@@ -8,6 +8,7 @@
     "start": "npm-run-all --parallel security-check open:src",
     "open:src": "babel-node build/server.js",
     "lint": "esw webpack.config.* src build",
+    "lint:watch": "npm run lint -- --watch",
     "security-check": "nsp check",
     "test": "node_modules/mocha/bin/mocha"
   },
