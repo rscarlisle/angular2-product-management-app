@@ -11,7 +11,7 @@
   },
   "env": {
     "browser": true,
-    "node": false,
+    "node": true,
     "mocha": true
   },
   "rules": {
