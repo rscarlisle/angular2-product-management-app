@@ -4,8 +4,6 @@ import open from 'open';
 import webpack from 'webpack';
 import config from '../webpack.config.dev';
 
-/* eslint-disable-line no-console */
-
 const port = 3000;
 const app = express();
 const compiler = webpack(config);
@@ -20,7 +18,7 @@ app.get('/', function(req, res) {
 
 app.listen(port, function(err) {
     if (err) {
-        console.log(err);
+        console.log(err); /* eslint-disable-line no-console */
     } else {
         open('http://localhost:' + port);
     }
