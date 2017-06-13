@@ -10,7 +10,8 @@
     "lint": "esw webpack.config.* src build",
     "lint:watch": "npm run lint -- --watch",
     "security-check": "nsp check",
-    "test": "node_modules/mocha/bin/mocha"
+    "test": "node_modules/mocha/bin/mocha",
+    "test-all": "mocha --reporter progress build/testSetup.js \"src/**/*.test.js\""
   },
   "repository": {
     "type": "git",
