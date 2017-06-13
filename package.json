@@ -5,7 +5,9 @@
   "main": "app.component.js",
   "scripts": {
     "prestart": "babel-node build/message.js",
-    "start": "babel-node build/server.js",
+    "start": "npm-run-all --parallel security-check open:src",
+    "open:src": "babel-node build/server.js",
+    "lint": "esw webpack.config.* src build",
     "security-check": "nsp check",
     "test": "node_modules/mocha/bin/mocha"
   },
