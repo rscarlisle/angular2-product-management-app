@@ -1,5 +1,5 @@
 import path from 'path';
-
+/* eslint-disable no-console */
 export default {
   devtool: 'inline-source-map',
   entry: [
