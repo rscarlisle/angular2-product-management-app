@@ -18,17 +18,10 @@ export default {
     // Minify JS
     new webpack.optimize.UglifyJsPlugin()
   ],
-    module: {
-      loaders: [
-        {test: /\.js$/, exclude: /node_modules/, loaders: ['babel']},
-        {test: /\.css$/, loader: ExtractTextPlugin.extract('css?sourceMap')}
-      ]
-    }
-  ],
   module: {
     loaders: [
-      {test: /\.js$/, exclude: /node_modules/, loaders: ['babel-loader']},
-      {test: /\.css$/, loaders: ['style-loader', 'css-loader']}
+      {test: /\.js$/, exclude: /node_modules/, loaders: ['babel']},
+      {test: /\.css$/, loader: ExtractTextPlugin.extract('css?sourceMap')}
     ]
   }
-}
+};
