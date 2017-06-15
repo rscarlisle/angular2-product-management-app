@@ -7,8 +7,8 @@ export function getUsers() {
     return get('users');
 }
 
-function get(baseUrl + url) {
-    return fetch(url).then(onSuccess, onError);
+function get(url) {
+    return fetch(baseUrl + url).then(onSuccess, onError);
 }
 
 function onSuccess(response) {
