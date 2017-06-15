@@ -18,8 +18,8 @@
     "start-mockapi": "json-server --watch src/api/db.json --port 3001",
     "clean-dist": "rimraf ./dist && mkdir dist",
     "prebuild": "npm-run-all clean-dist test lint",
-    "build": "babel-node buildScripts/build.js",
-    "postbuild": "babel-node buildScripts/distServer.js",
+    "build": "babel-node build/build.js",
+    "postbuild": "babel-node build/distServer.js",
     "deploy": "surge ./dist"
   },
   "repository": {
