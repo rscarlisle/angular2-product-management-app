@@ -12,7 +12,7 @@
     "security-check": "nsp check",
     "test": "node_modules/mocha/bin/mocha",
     "test-all": "mocha --reporter progress build/testSetup.js \"src/**/*.test.js\"",
-    "generateMockData": "babel-node build/generateMockData.js",
+    "generateMockData": "babel-node build/generateMockData",
     "prestart-mockapi": "npm run generatemockdata",
     "start-mockapi": "json-server --watch src/api/db.json --port 3001"
   },
