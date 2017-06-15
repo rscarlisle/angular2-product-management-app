@@ -11,7 +11,8 @@
     "lint:watch": "npm run lint -- --watch",
     "security-check": "nsp check",
     "test": "node_modules/mocha/bin/mocha",
-    "test-all": "mocha --reporter progress build/testSetup.js \"src/**/*.test.js\""
+    "test-all": "mocha --reporter progress build/testSetup.js \"src/**/*.test.js\"",
+    "generateMockData": "babel-node build/generateMockData.js"
   },
   "repository": {
     "type": "git",
