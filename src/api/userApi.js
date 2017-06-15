@@ -1,11 +1,13 @@
 import 'whatwg-fetch';
 import getBaseUrl from './baseUrl';
 
+const baseUrl = getBaseUrl();
+
 export function getUsers() {
     return get('users');
 }
 
-function get(url) {
+function get(baseUrl + url) {
     return fetch(url).then(onSuccess, onError);
 }
 
