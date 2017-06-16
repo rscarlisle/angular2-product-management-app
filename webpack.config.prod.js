@@ -1,7 +1,6 @@
 import path from 'path';
 import webpack from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
-
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 
 
@@ -24,7 +23,7 @@ export default {
     }),
     
     // Eliminate duplicate packages when generating bundle
-    new webpack.optimize.DedupePlugin(),
+//     new webpack.optimize.DedupePlugin(),
     
     // Minify JS
     new webpack.optimize.UglifyJsPlugin()
