@@ -29,6 +29,7 @@ export default {
     // Create HTML file that includes reference to bundled JS.
     new HtmlWebpackPlugin({
       template: 'src/index.html',
+      inject: true,
       
       minify: {
         removeComments: true,
@@ -42,8 +43,7 @@ export default {
         minifyCSS: true,
         minifyURLs: true
       },      
-      
-      inject: true, 
+       
       // Properties you define here are available in index.html
       // using htmlWebpackPlugin.options.varName      
       trackJSToken: '2a26d136c2824c9a8e7f335611cad4ac'
