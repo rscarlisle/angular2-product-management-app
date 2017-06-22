@@ -99,6 +99,7 @@ index.d.ts
 **Basic Overview of Project**
 ----------------------
 Basic description of project...
+
 The Production Management Application has the following [use cases]:
 1. Log in to the application
 2. Register a user in the application
