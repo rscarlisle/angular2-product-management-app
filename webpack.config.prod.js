@@ -6,7 +6,7 @@ import WebpackMd5Hash from 'webpack-md5-hash';
 
 
 export default {
-  debug: true,
+//   debug: true,
   devtool: 'source-map',
   // noInfo: false,
   entry: {
