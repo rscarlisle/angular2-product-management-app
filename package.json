@@ -4,6 +4,9 @@
   "description": "**Angular 2 - Product Management Application** ---------------",
   "main": "app.component.js",
   "scripts": {
+    "apm-start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",    
     "prestart": "babel-node build/message.js",
     "start": "npm-run-all --parallel security-check open:src lint:watch test-watch start-mockapi",
     "open:src": "babel-node build/server.js",
