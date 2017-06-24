@@ -6,7 +6,7 @@
   "scripts": {
     "apm-start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "tsc": "tsc",
-    "tsc:w": "tsc -w",    
+    "tsc:w": "tsc -w",
     "prestart": "babel-node build/message.js",
     "start": "npm-run-all --parallel security-check open:src lint:watch test-watch start-mockapi",
     "open:src": "babel-node build/server.js",
@@ -60,7 +60,9 @@
     "passport": "^0.3.2",
     "passport-http": "^0.3.0",
     "passport-local": "^1.0.0",
+    "reflect-metadata": "^0.1.10",
     "rxjs": "^5.4.0",
+    "systemjs": "^0.19.27",
     "underscore": "^1.8.3",
     "whatwg-fetch": "^1.0.0",
     "zone.js": "^0.8.11"
