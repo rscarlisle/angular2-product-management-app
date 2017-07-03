@@ -30,4 +30,8 @@ export class ProductListComponent implements OnInit {
                 .subscribe(products => this.products = products,
                            error => this.errorMessage = <any>error);
     }
+	
+    onRatingClicked(message: string): void {
+        this.pageTitle = 'Product List: ' + message;
+    }	
 }
