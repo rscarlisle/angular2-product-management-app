@@ -1,4 +1,4 @@
-**Angular 2 - Product Management Application**
+**Angular 6 - Product Management Application**
 ---------------
 
 [![Build Status](https://travis-ci.org/rscarlisle/angular2-product-management-app.svg?branch=master)](https://travis-ci.org/rscarlisle/angular2-product-management-app)[![Sauce Test Status](https://saucelabs.com/buildstatus/vanilla-es6-jspm)](https://saucelabs.com/u/vanilla-es6-jspm)
